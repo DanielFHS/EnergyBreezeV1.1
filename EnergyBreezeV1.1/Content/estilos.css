@@ -1,0 +1,319 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Bright';
+}
+
+.Contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* Header */
+
+.master{
+    width: 100%;
+    height: 200px;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8ff7880, #78ffd680);
+    background: linear-gradient(to right, #a8ff7880, #78ffd680),url(../Resources/Imagenes/portada.jpg);
+    /*background-image: url(../Resources/Imagenes/portada.jpg);*/
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.logo > img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: flex;
+}
+
+.menu{
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #aefbb4;
+}
+
+.login {
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.login li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.login li {
+    display: inline-block;
+    text-align: center;
+}
+
+.login a:hover {
+    background: #aefbb4;
+}
+
+header .textos-header {
+    display: flex;
+    height: 130px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*RENOVANDO EL USO DE ENERGÍA EÓLICA*/
+
+.Vortex-Gif {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul  li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider {
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    transition: opacity .5s;
+}
+
+    ul.slider li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+ul.slider li:first-child{
+    opacity: 0;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.puntos{
+    text-align: center;
+    margin: 20px;
+}
+
+.puntos li{
+    display: inline-block;
+    text-align: center;
+}
+
+.puntos li a{
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.sobre nosotros .Contenido-textos {
+    width: 48%;
+}
+
+/*GALERIA*/
+
+.Galeria {
+    background: -webkit-linear-gradient(to right, #a8ff7880, #78ffd680);
+    background: linear-gradient(to right, #a8ff7880, #78ffd680),url(../Resources/Imagenes/Imagen2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.Galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Imagen-port {
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+    .Imagen-port > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+
+.Hover-Galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: #c1ff9e;
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .Hover-Galeria img {
+        width: 100px;
+    }
+
+    .Hover-Galeria p {
+        color: #465244;
+    }
+
+.Galeria-port:hover .Hover-Galeria {
+    transform: scale(1);
+}
+
+/*FOOTER*/
+
+footer {
+    background: #808080;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.Contenido-foo{
+    text-align: center;
+}
+
+.Contenido-foo h4{
+    color: #ccc;
+    border-bottom: 3px solid #7bf70c;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Contenido-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0 ;
+    color: #ccc;
+}
+
+/*Sobre Nosotros*/
+
+.about_us {
+    width: 100%;
+    height: 100px;
+}
+    .about_us .headerSN {
+        display: flex;
+        height: 0px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about_us .headerSN h1{
+        font-size: 50px;
+        font-family: Arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: aliceblue;
+        -webkit-text-stroke: 1px black;
+    }
+
+Vortex-Gif .TituloSN {
+    padding: 5px;
+}
