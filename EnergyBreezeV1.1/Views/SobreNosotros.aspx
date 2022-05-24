@@ -108,15 +108,19 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-4">   
-                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Sebas1.png" alt="" />
+            <div class="col-3">   
+                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
                 <h5 class="text-center">Sebastian Cardozo</h5>
             </div>
-            <div class="col-4"> 
+            <div class="col-3"> 
                 <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
-                <h5 class="text-center">Daniel Castro/ Daniel Sotelo</h5>
+                <h5 class="text-center"> Daniel Sotelo</h5>
             </div>
-            <div class="col-4">
+            <div class="col-3"> 
+                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
+                <h5 class="text-center">Daniel Castro</h5>
+            </div>
+            <div class="col-3">
                 <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
                 <h5 class="text-center">Sebastian Palacio</h5>
             </div>
