@@ -27,7 +27,7 @@
                     <ul class="menu">
                         <li><a href="Inicio.aspx">Inicio</a></li>
                         <li><a href="SobreNosotros.aspx">Sobre Nosotros</a></li>
-                        <li><a href="#">Como Funciona</a></li>
+                        <li><a href="comoFunciona.aspx">Como Funciona</a></li>
                         <asp:MultiView ID="MV_Cotizacion" runat="server">
                             <asp:View ID="MV_CotActiva" runat="server">
                                 <li><a href="Cotizacion.aspx">Cotizar</a></li>
