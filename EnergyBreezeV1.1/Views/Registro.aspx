@@ -13,8 +13,9 @@
                 <hr />
             </div>
         </div>
+        
         <div class="row">
-            <div class="col-3">Cédula</div>
+            <div class="col-3">Cédula*</div>
             <div class="col-3">
                 <input type="text" class="form-control" runat="server" id="R_Cedula" required />
             </div>
@@ -28,7 +29,7 @@
         
         
         <div class="row">
-            <div class="col-3">Nombre</div>
+            <div class="col-3">Nombre*</div>
             <div class="col-3">
                 <input type="text" class="form-control" runat="server" id="R_Nom" required />
             </div>
@@ -40,7 +41,7 @@
         </div>
         
         <div class="row">
-            <div class="col-3">Apellido</div>
+            <div class="col-3">Apellido*</div>
             <div class="col-3">
                 <input type="text" class="form-control" runat="server" id="R_Apellido" required />
             </div>
@@ -51,7 +52,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-3">Correo</div>
+            <div class="col-3">Correo*</div>
             <div class="col-3">
                 <input type="text" class="form-control" runat="server" id="R_Correo" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe tener un @ para ser un correo válido"/>
             </div>
@@ -62,7 +63,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-3">Celular</div>
+            <div class="col-3">Celular*</div>
             <div class="col-3">
                 <input type="text" class="form-control" runat="server" id="R_Celular" required />
             </div>
@@ -84,7 +85,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-3">Fecha de Nacimiento</div>
+            <div class="col-3">Fecha de Nacimiento*</div>
             <div class="col-3">
                 <input type="date" class="form-control" runat="server" id="R_Fecha" required />
             </div>
@@ -95,7 +96,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-3">Usuario</div>
+            <div class="col-3">Usuario*</div>
             <div class="col-3">
                 <input type="text" class="form-control" runat="server" id="R_Usuario" required />
             </div>
@@ -106,7 +107,7 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-3">Contraseña</div>
+            <div class="col-3">Contraseña*</div>
             <div class="col-3">
                 <input type="password" class="form-control" runat="server" id="R_Contraseña" required />
             </div>

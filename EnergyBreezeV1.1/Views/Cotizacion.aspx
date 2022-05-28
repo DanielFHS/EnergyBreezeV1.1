@@ -6,8 +6,13 @@
     <br />
     <br />
     <div class="container">
+        <h1>COTIZA TU ENERGY BREEZE</h1>
+        <br />
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-8 border">
+                <br />
                 <h5 class="text-center">Cotización</h5>
                 <hr />
                 <div class="row">
@@ -49,11 +54,15 @@
                 <hr />
                 <div class="row">
                     <div class="col-6 text-center">
+                        
                         <input type="submit" class="btn btn-primary" runat="server" onserverclick="Btn_Cotizar" value="Cotizar" />
+                        <br />
+                        <br />
                     </div>
                 </div>
             </div>
             <div class="col-4 border">
+                <br />
                 <h5 class="text-center">Unidad</h5>
                 <hr />
                 <div class="row">
@@ -90,5 +99,24 @@
             </div>
         </div>
     </div>
+    <br />
+    <br />
+    <footer>
+        <div class="Contenedor-footer">
+            <div class="Contenido-foo">
+                <h4>Número</h4>
+                <p>8209633</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Email</h4>
+                <p>EnergyBreeze@gmail.com</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Ubicación</h4>
+                <p>Colombia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Energy Breeze </h2>
+    </footer> 
 </asp:Content>
 

@@ -3,17 +3,29 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
     <div class="container">
-        <div class="row border-bottom">
+        <br />
+        <h1>Perfil del usuario</h1>
+        <hr />
+    </div>
+    
+    <div class="container">
+        <div class="row">
             <div class="col-6">
                 <b>Cédula</b>
             </div>
             <div class="col-6">
                 <input type="text" class="form-control" runat="server" id="cedula" readonly />
             </div>
+            
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Nombre</b>
             </div>
@@ -21,8 +33,12 @@
                 <input type="text" class="form-control" runat="server" id="nombre" readonly />
             </div>
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Apellido</b>
             </div>
@@ -30,8 +46,12 @@
                 <input type="text" class="form-control" runat="server" id="apellido" readonly />
             </div>
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Celular</b>
             </div>
@@ -39,8 +59,12 @@
                 <input type="text" class="form-control" runat="server" id="celular" readonly />
             </div>
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Teléfono Fijo</b>
             </div>
@@ -48,8 +72,12 @@
                 <input type="text" class="form-control" runat="server" id="telefono" readonly />
             </div>
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Correo</b>
             </div>
@@ -57,8 +85,12 @@
                 <input type="text" class="form-control" runat="server" id="correo" readonly />
             </div>
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Fecha de Nacimiento</b>
             </div>
@@ -66,8 +98,12 @@
                 <input type="text" class="form-control" runat="server" id="fecha" readonly />
             </div>
         </div>
-        <br />
-        <div class="row border-bottom">
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <b>Usuario</b>
             </div>
@@ -75,9 +111,14 @@
                 <input type="text" class="form-control" runat="server" id="user" readonly />
             </div>
         </div>
-        <br />
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
     </div>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalEditar">Editar</button>
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalEditar">Editar</button>
     <div class="modal fade" id="ModalEditar">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -87,7 +128,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="container">
-                        <div class="row border-bottom">
+                        <div class="row">
                             <div class="col-6">
                                 <b>Nombre</b>
                             </div>
@@ -95,8 +136,12 @@
                                 <input type="text" class="form-control" runat="server" id="nombre2" />
                             </div>
                         </div>
-                        <br />
-                        <div class="row border-bottom">
+                        <div class="row">
+                         <div class="col-12">
+                             <hr />
+                          </div>
+                        </div>
+                        <div class="row">
                             <div class="col-6">
                                 <b>Apellido</b>
                             </div>
@@ -104,8 +149,12 @@
                                 <input type="text" class="form-control" runat="server" id="apellido2" />
                             </div>
                         </div>
-                        <br />
-                        <div class="row border-bottom">
+                        <div class="row">
+                         <div class="col-12">
+                          <hr />
+                         </div>
+                        </div>
+                        <div class="row">
                             <div class="col-6">
                                 <b>Celular</b>
                             </div>
@@ -113,8 +162,12 @@
                                 <input type="text" class="form-control" runat="server" id="celular2" />
                             </div>
                         </div>
-                        <br />
-                        <div class="row border-bottom">
+                        <div class="row">
+                            <div class="col-12">
+                              <hr />
+                             </div>
+                         </div>
+                        <div class="row">
                             <div class="col-6">
                                 <b>Teléfono Fijo</b>
                             </div>
@@ -122,8 +175,12 @@
                                 <input type="text" class="form-control" runat="server" id="telefono2" />
                             </div>
                         </div>
-                        <br />
-                        <div class="row border-bottom">
+                        <div class="row">
+                          <div class="col-12">
+                              <hr />
+                          </div>
+                        </div>
+                        <div class="row">
                             <div class="col-6">
                                 <b>Correo</b>
                             </div>
@@ -131,8 +188,12 @@
                                 <input type="text" class="form-control" runat="server" id="correo2" />
                             </div>
                         </div>
-                        <br />
-                        <div class="row border-bottom">
+                        <div class="row">
+                            <div class="col-12">
+                             <hr />
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="col-6">
                                 <b>Usuario</b>
                             </div>
@@ -140,7 +201,11 @@
                                 <input type="text" class="form-control" runat="server" id="user2" />
                             </div>
                         </div>
-                        <br />
+                        <div class="row">
+                            <div class="col-12">
+                                <hr />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -150,7 +215,10 @@
             </div>
         </div>
     </div>
-    <div>
+    </div>
+    <br />
+    <div class ="container">
+        <div>
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalContraseña">Editar Contraseña</button>
         <div class="modal fade" id="ModalContraseña">
             <div class="modal-dialog">
@@ -161,7 +229,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="container">
-                            <div class="row border-bottom">
+                            <div class="row">
                                 <div class="col-6">
                                     <b>Contraseña Actual</b>
                                 </div>
@@ -169,8 +237,12 @@
                                     <input type="text" class="form-control" runat="server" id="CActual" readonly />
                                 </div>
                             </div>
-                            <br />
-                            <div class="row border-bottom">
+                            <div class="row">
+                                <div class="col-12">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-6">
                                     <b>Contraseña Nueva</b>
                                 </div>
@@ -178,8 +250,12 @@
                                     <input type="text" class="form-control" runat="server" id="CNueva" />
                                 </div>
                             </div>
-                            <br />
-                            <div class="row border-bottom">
+                            <div class="row">
+                                <div class="col-12">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-6">
                                     <b>Confirmar Contraseña</b>
                                 </div>
@@ -187,7 +263,11 @@
                                     <input type="text" class="form-control" runat="server" id="Confirmacion" />
                                 </div>
                             </div>
-                            <br />
+                            <div class="row">
+                                <div class="col-12">
+                                    <hr />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -198,5 +278,24 @@
             </div>
         </div>
     </div>
+    </div>
+    <br />
+<footer>
+        <div class="Contenedor-footer">
+            <div class="Contenido-foo">
+                <h4>Número</h4>
+                <p>8209633</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Email</h4>
+                <p>EnergyBreeze@gmail.com</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Ubicación</h4>
+                <p>Colombia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Energy Breeze </h2>
+    </footer> 
 </asp:Content>
 

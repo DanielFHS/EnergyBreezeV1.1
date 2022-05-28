@@ -109,20 +109,20 @@
         <div class="row">
             
             <div class="col-3">   
-                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
-                <h5 class="text-center">Sebastian Cardozo</h5>
+                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Sebas1.png" alt="" />
+                <h5 class="text-center">Juan Sebastián Cardozo Pachón</h5>
             </div>
             <div class="col-3"> 
-                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
-                <h5 class="text-center"> Daniel Sotelo</h5>
+                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Daniel_H.png" alt="" />
+                <h5 class="text-center">Daniel Felipe Hernandez Sotelo</h5>
             </div>
             <div class="col-3"> 
-                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
-                <h5 class="text-center">Daniel Castro</h5>
+                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Daniel_cas.png" alt="" />
+                <h5 class="text-center">Daniel Andres Castro Hernández</h5>
             </div>
             <div class="col-3">
-                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Figura_hombre.png" alt="" />
-                <h5 class="text-center">Sebastian Palacio</h5>
+                <img class="img-fluid mx-auto d-block"  src ="../Resources/Imagenes/Sebas23.png" alt="" />
+                <h5 class="text-center">Sebastián Palacio Hernández</h5>
             </div>
         </div>
     </div>
